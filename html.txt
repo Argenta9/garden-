@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garden and Plants - Your Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        section {
+            padding: 2em;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 2em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background-color: #e2e2e2;
+            margin: 0.5em 0;
+            padding: 1em;
+            border-radius: 5px;
+        }
+        .contact-info, .shipping-info, .plant-list {
+            margin-bottom: 2em;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 1em;
+            margin: 0.5em 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 1em 2em;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Garden and Plants</h1>
+    <p>Your one-stop shop for plants and trees in London, UK</p>
+</header>
+
+<section>
+    <div class="container">
+        <div class="about">
+            <h2>About Us</h2>
+            <p>Welcome to our garden and plant shop! We specialize in a wide variety of plants and trees, perfect for your garden in London, UK. Whether you're looking to buy or need advice on planting and caring for your greenery, we're here to help.</p>
+        </div>
+
+        <div class="plant-list">
+            <h2>Plants and Trees for Sale</h2>
+            <ul>
+                <li><strong>Rose Bush</strong> - Beautiful and fragrant roses. Perfect for any garden.</li>
+                <li><strong>Maple Tree</strong> - Sturdy and vibrant. Ideal for larger gardens and parks.</li>
+                <li><strong>Lavender</strong> - Aromatic and soothing. Great for borders and containers.</li>
+                <li><strong>Oak Tree</strong> - Majestic and long-lasting. A wonderful addition to any landscape.</li>
+                <li><strong>Sunflower</strong> - Bright and cheerful. Adds a splash of color to your garden.</li>
+            </ul>
+        </div>
+
+        <div class="shipping-info">
+            <h2>Shipping Information</h2>
+            <p>We offer shipping to all areas in London, UK. Our plants and trees are carefully packaged to ensure they arrive in perfect condition. Please contact us with your order details, and we will coordinate the shipping with our trusted partners.</p>
+        </div>
+
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to place an order, please reach out to us:</p>
+            <p><strong>Email:</strong> yourname@example.com</p>
+            <p><strong>Phone:</strong> +44 1234 567890</p>
+        </div>
+
+        <div class="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="mailto:yourname@example.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Garden and Plants. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
